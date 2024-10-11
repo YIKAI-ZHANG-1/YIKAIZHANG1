@@ -1,8 +1,7 @@
 import Customer from "@/models/Customer";
 import { NextResponse } from 'next/server';
 
-import Customer from "@/models/Customer";
-import { NextResponse } from 'next/server';
+
 
 // GET /api/customer/[id] - 获取特定客户信息
 export async function GET(request, { params }) {
